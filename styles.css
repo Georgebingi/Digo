@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('bulls and bear.jpg'); /* Ensure the image file name matches */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+	color: #FFA500; /* Light orange color */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+    overflow: hidden; /* To ensure floating elements are contained */
+}
+
+.hero h1,
+.hero p {
+    margin: 0;
+    padding: 0;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.floating-text {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.services {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.service-box {
+    margin: 20px auto;
+    padding: 20px;
+    width: 200px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-box:hover {
+    transform: scale(1.1);
+}
+
+.service-box a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2em;
+}
+
+.about,
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+}
+
+.services {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.service-box {
+    margin: 20px auto;
+    padding: 20px;
+    width: 200px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-box:hover {
+    transform: scale(1.1);
+}
+
+.service-box a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2em;
+}
+
+.about,
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.services {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.service-box {
+    margin: 20px auto;
+    padding: 20px;
+    width: 200px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-box:hover {
+    transform: scale(1.1);
+}
+
+.service-box a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2em;
+}
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('bulls and bear.jpg'); /* Ensure the image file name matches */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #FFA500; /* Light orange color */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.owner-contact p {
+    font-size: 1.2em;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contact-form label {
+    font-size: 1.2em;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #FFA500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #ff8c00;
+}
+

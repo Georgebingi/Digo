@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - DIGO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            DIGO
+        </div>
+        <nav>
+            <ul>
+               <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h1>Contact Us</h1>
+            <div class="owner-contact">
+                <p><strong>Owner's Name:</strong> DIGO TECHNOLOGIES</p>
+                <p><strong>Contact Number:</strong> +2349021250726</p>
+                <p><strong>Email:</strong> digotechlimited@gmail.com</p>
+            </div>
+            <form action="https://formspree.io/f/mblrrjpv" method="POST" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="address">Email Address:</label>
+                <input type="text" id="address" name="address" required>
+                
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                
+                <label for="question">Question:</label>
+                <textarea id="question" name="question" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
